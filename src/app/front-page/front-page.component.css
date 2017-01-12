@@ -2,27 +2,42 @@ body {
   text-align: center;
 }
 
+#parallax {
+  /* The image used */
+  background-image: url("../assets/images/centralpark2.jpg");
+
+  /* Set a specific height */
+  min-height: 650px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .fluff {
  padding-bottom: 45px;
 }
 
-#header-pic {
-  margin: 0 auto;
-  height: 650px;
-  background: linear-gradient(
-    rgba(114, 130, 140, 0.53),
-    rgba(114, 130, 140, 0.53)
-    ),
-    url('../assets/images/centralpark.jpg') no-repeat center;
-  background-size: cover;
-}
+/*#header-pic {*/
+  /*background-attachment: fixed;*/
+  /*margin: 0 auto;*/
+  /*min-height: 650px;*/
+  /*background: linear-gradient(*/
+    /*rgba(114, 130, 140, 0.53),*/
+    /*rgba(114, 130, 140, 0.53)*/
+    /*),*/
+    /*url('../assets/images/centralpark.jpg') no-repeat center;*/
+  /*background-size: cover;*/
+/*}*/
 
 #masthead-text {
   text-align: center;
   line-height: 1.5;
   color: white;
   font-size: 3.5em;
-  padding-top: 14%;
+  padding-top: 10%;
 }
 
 .arrow {
@@ -54,6 +69,10 @@ body {
 
 .divider-space {
   margin: 150px 0 150px 0;
+}
+
+.hidden-div {
+  margin-top: 35px;
 }
 
 .svg-img {
